@@ -1,0 +1,239 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top_header
+{
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.logoimg img
+{
+  height: 50px;
+  object-fit: cover;
+}
+.main_menu ul
+{
+  list-style: none;
+  display: flex;
+  padding-top: 12px ;
+}
+.menu li > a
+{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-right: 35px;
+}
+.menubtn > a
+{
+  padding: 10px 16px;
+  margin-right: 30px;
+  border: 1px solid rgb(255, 152, 0);
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text h1
+{
+  z-index: 1;
+  color: rgb(32 , 35 , 41);
+  font-weight: 900;
+  font-size:100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.bggray
+{
+  background-color: #272b33;
+  color: white;
+  padding: 0px 70px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+  padding: 80px 0px; 
+}
+.cards
+{
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(60 , 62 , 68);
+}
+.card_character
+{
+  display: flex;
+}
+.card_item img
+{
+  border-radius: 10px 0px 0px 10px;
+  height: 230px;
+  width: 220px;
+}
+.card_text
+{
+  padding: 15px;
+}
+.section h2
+{
+  font-size: 25px;
+  margin: 0 ;
+  font-weight: 700;
+  cursor: pointer;
+}
+.location
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.location p
+{
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(158 , 158 , 158);
+  padding-bottom: 4px;
+}
+.location span
+{
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.seen p
+{
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(158 , 158 , 158);
+  padding-bottom: 4px;
+}
+.seen span
+{
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.section h2:hover,
+.location span:hover,
+.seen span:hover
+{
+  color: rgb(255 , 152 , 0);
+}
+.status
+{
+  display: flex;
+}
+.status p 
+{
+  padding-right: 8px;
+  margin: 0;
+}
+.status b 
+{
+  font-size: 10px;
+}
+.status span
+{
+  padding-top: 3px;
+}
+.footer
+{
+  background-color: #202329;
+  color: white;
+  padding: 60px 0px;
+  text-align: center;
+  /* justify-content: center; */
+}
+.footer ul
+{
+  list-style: none;
+  margin: 0;
+}
+.navbar1
+{
+  display: flex;
+  justify-content: center;
+}
+.navbar1 li > a
+{
+  text-decoration: none;
+  padding-right: 20px;
+  color: rgb(158 , 158 , 158);
+  font-size: 14px;
+}
+.navbar1 li span
+{
+  padding-left: 5px;
+}
+.server
+{
+  margin-bottom: 20px;
+}
+.server span
+{
+  color: rgb(158 , 158 , 158);
+  font-size: 11px;
+  font-weight: 500;
+  padding-right: 7px;
+  text-transform: uppercase;
+}
+.server i
+{
+  font-size: 8px;
+  color: green;
+}
+.images > a{
+  padding-right: 25px;
+}
+.images img
+{
+  width: 83px;
+  height: 34px;
+}
+.icons
+{
+  padding: 20px 0px;
+}
+.icons i
+{
+  color: rgb(158 , 158 , 158);
+  padding-right: 15px;
+  /* margin: 20px 0px !important; */
+}
+.last_line
+{
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  color: rgb(158 , 158 , 158);
+}
+.last_line p
+{
+  margin: 0;
+}
+.last_line i
+{
+  font-size: 10px;
+  padding-right: 2px;
+}
+.last_line > a
+{
+  border-bottom: 1px solid rgb(255 , 152 , 0);
+  text-decoration: none;
+  color: white;
+  padding: 0px 5px;
+}
+.last_line > a:hover
+{
+  color: rgb(255 , 152 , 0);
+  border: transparent;
+}
